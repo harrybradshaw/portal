@@ -1,0 +1,185 @@
+body { padding: 0; margin: 0; }
+
+p {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+p.slim{
+    margin-bottom: 0px;
+}
+h3 {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+div.bulk{
+    padding-top:30px;padding-left:30px;padding-bottom:10px
+}
+
+a img {
+    border:none;
+   }
+
+h2 {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+th {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+td {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #0645AD;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+a.stdlink{
+	/* color: #bc8ad4; */
+	font-size:12pt;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+label {
+	font-size: 14;
+}
+
+.tooltip,.tooltipselect, {
+	font-size: 14 !important;
+}
+
+
+#NormLink{
+    color: black;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+#stdform{
+    color: black;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+#loginform{
+    color: black;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+
+#customers1 {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+#customers1 td, #customers1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /*border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,44 @@
+nas19	Manager
+
+Big Cryo	bigcryo	
+Mini Cryo	mini	
+Device Wirebonder	devicebonder	0
+Film Wirebonder	oldbonder	0
+PLD 201 Laser	PLD201L	
+Mk9 PLD Chamber	Mk9PLDC	
+Mk10 PLD Chamber	Mk10PLDC	
+Tc Rig	TcR	
+New Probe	NewP	
+AJA	AJA	
+Dewar	dewar	
+
+sk891	Manager
+
+cml68	Manager
+
+hlb54	superuser
+labo2	B user
+msa60	Manager
+sk891	superuser
+mj530	B user
+gy251	Trainee
+gk349	B user
+jet74	C user
+jms272	Trainee
+cml68	B user
+cy276	B user
+ad659	Manager
+bs507	superuser
+
+bs507	Manager
+hlb54	Trainee
+
+jet74	Manager
+
+labo2	B user
+msa60	superuser
+jet74	B user
+sk891	Manager
+hlb54	B user
+
+cy276	Manager
